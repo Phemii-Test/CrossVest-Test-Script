@@ -1,0 +1,19 @@
+{
+  "name": "crossvest-webapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.10.0",
+    "mailslurp": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "cypress-mailslurp": "^1.10.0"
+  }
+}
