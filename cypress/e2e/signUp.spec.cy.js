@@ -17,7 +17,7 @@ describe('Sign up', ()=>{
 
     // it('Verify the signup form', ()=>{
         // click signup button
-        cy.get('._secondary_button_ko0gw_3').click();
+        cy.get('[type="button"]').click();
 
         // Enter the first name
         cy.get('input[name="first_name"]').type('Olufemi');
